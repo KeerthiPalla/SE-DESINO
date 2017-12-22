@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: ec0b0a2d870b5f6408d861278044e15f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hensprite_0
+    21300002: hensprite_1
+    21300004: hensprite_2
+    21300006: hensprite_3
+    21300008: hensprite_4
+    21300010: hensprite_5
+    21300012: hensprite_6
+    21300014: hensprite_7
+    21300016: hensprite_8
+    21300018: hensprite_9
+    21300020: hensprite_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: hensprite_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1242
+        width: 384
+        height: 358
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1237
+        width: 389
+        height: 363
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_2
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1239
+        width: 413
+        height: 361
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 832
+        width: 392
+        height: 349
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 850
+        width: 378
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_5
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 874
+        width: 421
+        height: 342
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 477
+        width: 411
+        height: 362
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 484
+        width: 353
+        height: 363
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_8
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 463
+        width: 358
+        height: 387
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_9
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 93
+        width: 357
+        height: 386
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hensprite_10
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 90
+        width: 360
+        height: 365
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

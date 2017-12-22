@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{88069D58-F5FA-455E-4CF2-F75F8D79833A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_7_2;UNITY_4_7;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/unity 4x/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/unity 4x/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioManageCheck.cs" />
+     <Compile Include="Assets\Scripts\BackToMenu.cs" />
+     <Compile Include="Assets\Scripts\CC\CCLevel2.cs" />
+     <Compile Include="Assets\Scripts\CC\CCLevel3.cs" />
+     <Compile Include="Assets\Scripts\CC\Level1.cs" />
+     <Compile Include="Assets\Scripts\CC\LoadLevel.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel1.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel10.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel11.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel12.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel13.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel14.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel2.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel3.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel4.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel5.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel6.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel7.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel8.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLevel9.cs" />
+     <Compile Include="Assets\Scripts\DP\DPLoadLevel.cs" />
+     <Compile Include="Assets\Scripts\LoginSystem\Login.cs" />
+     <Compile Include="Assets\Scripts\LoginSystem\QuitHandler.cs" />
+     <Compile Include="Assets\Scripts\LoginSystem\Register.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\Henrun.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\LoadPlayer.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\LogOut.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MenuButtonSound.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\Play.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\Save.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\Sound.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\SoundEnable.cs" />
+     <Compile Include="Assets\Scripts\Play\LoadSubject.cs" />
+     <Compile Include="Assets\Scripts\Test\CCTestControl.cs" />
+     <Compile Include="Assets\Scripts\Test\DP\DPTestControl.cs" />
+     <Compile Include="Assets\Scripts\Test\LoadTest.cs" />
+     <Compile Include="Assets\Scripts\Test\Test.cs" />
+     <Compile Include="Assets\Scripts\Test\UMLTestControl.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel1.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel10.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel11.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel12.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel13.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel2.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel3.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel4.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel5.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel6.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel7.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel8.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLevel9.cs" />
+     <Compile Include="Assets\Scripts\UML\UMLLoadLevel.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/unity 4x/Editor/Data/UnityExtensions/Unity/GUISystem/4.7.2/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
